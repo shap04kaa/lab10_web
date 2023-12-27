@@ -1,0 +1,116 @@
+/* Общие стили для обоих файлов */
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+
+/* Стили для первого HTML-файла */
+
+.header {
+    background-color: #919191;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.name {
+    font-size: 40px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.t2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px; /* Закругленные углы */
+    padding: 10px;
+    margin-top: 10px; /* Добавил отступ сверху */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    }
+
+.btn {
+    text-decoration: none;
+    color: #ffffff; /* Цвет текста кнопки */
+    font-weight: bold;
+    background-color: rgb(31, 115, 240); /* Цвет фона кнопки */
+    padding: 1%;
+    border: 5% solid #080808; /* Цвет границы кнопки */
+    border-radius: 20px;
+}
+
+.btn:hover {
+    transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+    color: rgb(255, 255, 255); /* Изменение цвета текста при наведении */
+    background-color: #181bd5; /* Изменение цвета фона при наведении */
+    border-color:  #181bd5; /* Изменение цвета границы при наведении */
+}
+
+/* Стили для второго HTML-файла */
+
+.src_text {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px; /* Закругленные углы */
+}
+
+.src_error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #3b3737;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3b3737;
+}
+
+/* Стили для обоих файлов (переопределение некоторых стилей) */
+
+.footer {
+    background-color: #919191;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
